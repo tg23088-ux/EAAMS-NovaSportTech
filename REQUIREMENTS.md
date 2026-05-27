@@ -33,3 +33,13 @@
 | NFR03 | Reliability | The system shall ensure data integrity by performing automated daily database backups of all performance logs and tournament records to an off-site server to prevent data loss. |
 | NFR04 | Performance | The system shall process queries and load the interactive player performance dashboard (including charts) in under 3 seconds under standard internet conditions. |
 | NFR05 | Scalability | The system database and application architecture shall be designed to handle at least 1,000 concurrent active users without experiencing noticeable performance degradation, especially during peak tournament registration periods. |
+
+---
+
+## Actors & Roles
+
+| Actor | Access Level |
+|-------|-------------|
+| Administrator | Full system access – manage users, tournaments, and view all data |
+| Coach | Can log/edit performance records and register players for tournaments |
+| Player | Read-only access to their own performance dashboard only |
